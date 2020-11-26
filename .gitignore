@@ -2,7 +2,7 @@
 /bin/
 !.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
+### STS and Eclipse ###
 .apt_generated
 .classpath
 .factorypath
