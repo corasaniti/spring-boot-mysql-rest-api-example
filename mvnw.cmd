@@ -1,4 +1,14 @@
 @REM ----------------------------------------------------------------------------
+@REM Setting M2_HOME and JAVA_HOME from build.properties file
+@setlocal
+@echo off  
+FOR /F "tokens=1,2 delims==" %%G IN (build.properties) DO (set %%G=%%H) 
+set PATH=%PATH%;%M2_HOME%\bin
+set PATH=%PATH%;%JAVA_HOME%\bin
+@REM ----------------------------------------------------------------------------
+
+
+@REM ----------------------------------------------------------------------------
 @REM Licensed to the Apache Software Foundation (ASF) under one
 @REM or more contributor license agreements.  See the NOTICE file
 @REM distributed with this work for additional information
