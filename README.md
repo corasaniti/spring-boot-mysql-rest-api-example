@@ -24,10 +24,15 @@ create database user_database
 
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
 
-**4. Build and run the app using maven**
+
+**4. Build and run the app using maven to excute cmd or sh mvnw script**
+
++ set your M2_HOME and JAVA_HOME path in `build.properties` file
++ excute cmd or sh mvnw script
 
 ```bash
-mvn package
+mvnw clean install -Dmaven.test.skip=true
+mvnw package -Dmaven.test.skip=true
 java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
 
 ```
