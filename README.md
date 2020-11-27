@@ -35,8 +35,13 @@ java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
 
 ```
 
-Alternatively, you can run the app without packaging using run.bat thath execute mvn spring-boot:run after setup  
-```JAVA_HOME``` and ```M2_HOME``` environment variable read from ```build.prroperties file```.
+Alternatively, you can run the app without packaging using run.bat script, that execute mvn spring-boot:run after setup  
+
+```
+JAVA_HOME 
+M2_HOME
+```
+environment variables read from  build.prroperties file
 
 ```
 run.bat
