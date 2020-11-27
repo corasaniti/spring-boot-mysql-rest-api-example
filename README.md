@@ -17,10 +17,10 @@ create database user_database
 **3. Change mysql username and password as  your installation**
 
 + open   
-`src/main/resources/application.properties`
+`src/main/resources/application.properties`  
 
-+ change  
-`spring.datasource.username` and `spring.datasource.password` as per your mysql installation
++ set your username and passworrd  
+`spring.datasource.username` and `spring.datasource.password` 
 
 
 **4. Build and run the app using maven to excute cmd or sh mvnw script**
@@ -35,7 +35,8 @@ java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
 
 ```
 
-Alternatively, you can run the app without packaging using run.bat thath execute mvn spring-boot:run after setup ```JAVA_HOME``` and ```M2_HOME``` environment variable read from ```build.prroperties file```.
+Alternatively, you can run the app without packaging using run.bat thath execute mvn spring-boot:run after setup  
+```JAVA_HOME``` and ```M2_HOME``` environment variable read from ```build.prroperties file```.
 
 ```
 run.bat
