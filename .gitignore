@@ -1,6 +1,7 @@
 /target/
 /bin/
 !.mvn/wrapper/maven-wrapper.jar
+README.local
 
 ### STS and Eclipse ###
 .apt_generated
