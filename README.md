@@ -19,8 +19,10 @@ create database user_database
 + open   
 `src/main/resources/application.properties`  
 
-+ set your username and passworrd  
-`spring.datasource.username` and `spring.datasource.password` 
++ set your host:port, username and passworrd  
+`spring.datasource.url`  
+`spring.datasource.username`  
+`spring.datasource.password` 
 
 
 **4. Build and run the app using maven to excute cmd or sh mvnw script**
